@@ -1,6 +1,4 @@
 import { useAuth } from "./auth";
-import env from "dotenv";
-env.config();
 
 export const API_BASE = import.meta.env.VITE_API_BASE || "https://liftcare-backend-production.up.railway.app";
 
