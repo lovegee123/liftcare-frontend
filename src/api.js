@@ -1,6 +1,6 @@
 import { useAuth } from "./auth";
 
-export const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:4000";
+export const API_BASE = import.meta.env.VITE_API_BASE || "liftcare-backend-production.up.railway.app";
 
 // hook ใช้ใน component
 export function useApi() {
