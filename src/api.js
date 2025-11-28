@@ -7,7 +7,9 @@ export function useApi() {
   const { token, logout } = useAuth();
 
   async function request(path, opts = {}) {
-    const res = await fetch(API_BASE + path, {
+    if (!path.startsWith("/")) path = "/" + path;
+    const url = `${API_BASE}${path}`;
+    const res = await fetch(url, {
       ...opts,
       headers: {
         "Content-Type": "application/json",
