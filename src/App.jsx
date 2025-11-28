@@ -13,7 +13,7 @@ import Register from "./pages/register.jsx";
 import Dashboard from "./pages/main.jsx";
 
 // Master data
-import Customers from "./pages/Customers.jsx";
+import Customers from "./pages/customers.jsx";
 import Buildings from "./pages/buildings.jsx";
 import Elevators from "./pages/elevators.jsx";
 import Technicians from "./pages/technicians.jsx";
