@@ -1,6 +1,6 @@
 import { useAuth } from "./auth";
 
-export const API_BASE = import.meta.env.VITE_API_BASE || "https://liftcare-backend.vercel.app/";
+export const API_BASE = import.meta.env.VITE_API_BASE || "https://liftcare-backend.vercel.app";
 
 // hook ใช้ใน component
 export function useApi() {
